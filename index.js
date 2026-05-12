@@ -147,7 +147,7 @@ conn.ev.on('connection.update', async (update) => {
                     require("./plugins/" + plugin);
                 }
            });
-console.log('\x1b[32m%s\x1b[0m', 'SUCCESSFULLY INSTALLED PLUGINS 🟢...');
+console.log('\x1b[32m%s\x1b[0m', 'SUCCESSFULLY INSTALLED PLUGINS 🟢...')
 console.log('\x1b[32m%s\x1b[0m', 'DB CONNECTED SUCCESSFULLY 🔋...') 
 console.log('\x1b[34m%s\x1b[0m','SANDES MD CONNECTED TO WHATSAPP ✅...')  
 
